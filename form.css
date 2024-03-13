@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(rgba(4,9,30,0.70),rgba(4,9,30,0.7)) ,url('./formImages/people\ on\ laptop1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header{
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+}
+.logo{
+    width: 210px;
+}
+/* .header .logo{
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: capitalize;
+    background: transparent;
+    color: #fff;
+} */
+nav, #menuitems, li, a{
+    background: transparent;
+}
+nav #menuitems li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+#menuitems li a{
+    background: transparent;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.sign-up-form{
+    width: 300px;
+    /* border: 1px solid turquoise; */
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+.sign-up-form form, h1, .input-box, p, span, a{
+    background: #fff;
+}
+.sign-up-form h1{
+    color: #1c8adb;
+    margin-bottom: 15px;
+}
+.input-box{
+    padding: 10px;
+    margin: 10px -10px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #999;
+    outline: none;
+}
+.input-box::placeholder{
+    color: lightgrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    margin: 10px -20px;
+    padding:10px;
+    width: 100%;
+    font-size: 0.94rem;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
+.sign-btn{
+    background: #1c8adb;
+}
+.facebook-btn{
+    background: #21afde;
+}
+.or{
+    width: 30px;
+    margin: 5px auto;
+}
+hr{
+    margin-top: 10px;
+}
+.sign-up-form a{
+    text-decoration: none;
+}
+.active{
+    border-bottom: 2px solid #1c8adb;
+}
+
+@media (max-width: 700px) {
+    nav #menuitems li{
+        display: block;
+    }
+    #menuitems li a{
+        font-size: 0.75rem;
+    }
+}
